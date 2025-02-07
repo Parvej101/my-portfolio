@@ -1,3 +1,4 @@
+import logo from '/images/logo.png'
 const Navbar = () => {
     // Function to handle smooth scrolling
     const handleScroll = (id) => {
@@ -26,7 +27,7 @@ const Navbar = () => {
             </ul>
           </div>
           {/* Logo */}
-          <a className="btn btn-ghost text-2xl font-bold">MH</a>
+          <a className="text-2xl font-bold"><img className='w-16 rounded-full bg-white' src={logo} alt="" /></a>
         </div>
   
         {/* Desktop Menu */}
